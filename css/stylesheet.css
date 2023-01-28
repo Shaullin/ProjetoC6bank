@@ -1,0 +1,226 @@
+:root {
+
+    --grey-medium: rgb(36, 36, 36, 0.35);
+    --grey-light: rgba(250, 250, 250, 0.35);
+    --white: #FFFFFF;
+    --black: #242424;
+    --blue: #006D8F;
+    --gradiente: (150.53deg, #FFE45C 0%, #FFC900 100%);
+    --grey-dark: rgba(36, 36, 36, 0.6);
+}
+
+
+body {
+
+    position: fixed;
+    width: 1366px;
+    height: 768px;
+    min-width: 768px;
+    max-width: 1366px;
+    background-image: url(../img/hero-bg.png);
+
+    background-size: cover;
+    background-color: var(--black);
+
+
+
+
+}
+
+
+.container {
+
+    position: relative;
+    width: 613px;
+    height: 386px;
+
+    left: 43px;
+    top: 191px;
+
+
+}
+
+.header {
+
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 1280px;
+    height: 43px;
+    left: 43px;
+    top: 26px;
+
+
+}
+
+
+.header .menu a {
+
+    margin-left: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+.open-account a {
+
+    position: relative;
+    left: 100px;
+    right: 82px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    text-decoration: none;
+
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--grey-dark);
+    border: 1px solid var(--grey-dark);
+    border-radius: 24px;
+    padding: 8 60px;
+
+
+}
+
+.conteudo .container {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    width: 613px;
+    height: 386px;
+
+    top: 100px;
+    right: 380px;
+
+}
+
+.conteudo .container .nossos-produtos {
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px 25px 2px 9px;
+    width: 518px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+
+    background: var(--grey-medium);
+    border: 1px solid var(--grey-light);
+    border-radius: 24px;
+
+
+}
+
+.conteudo .container .nossos-produtos .new-color {
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 7px 2px 8px;
+
+    width: 51px;
+    height: 24px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+
+    color: var(--white);
+
+    background: var(--blue);
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.conteudo .container .nossos-produtos .p1 {
+
+    position: relative;
+    width: 430px;
+    height: 16px;
+    left: 20px;
+    bottom: 10px;
+
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    color: var(--white);
+
+
+
+}
+
+.conteudo .container h1 {
+
+    width: 583px;
+    height: 155px;
+    font-weight: 300;
+    font-size: 60.8727px;
+    line-height: 76px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+
+
+    color: var(--black);
+
+}
+
+.conteudo .container .p2 {
+
+    position: relative;
+    width: 562px;
+    height: 72px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.conteudo .container a {
+
+    position: relative;
+
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    width: 340px;
+    height: 44px;
+    left: 0px;
+    right: 273px;
+
+    text-decoration: none;
+
+    background: linear-gradient(150.53deg, #FFE45C 0%, #FFC900 100%);
+    border-radius: 24px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--black);
+    padding: 14px 5px 14px 5px;
+
+}
